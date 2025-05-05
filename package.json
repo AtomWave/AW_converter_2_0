@@ -1,0 +1,21 @@
+{
+  "name": "image-font-optimizer",
+  "version": "1.0.0",
+  "description": "Gulp сборка для оптимизации изображений и конвертации шрифтов без потерь",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "devDependencies": {
+    "del": "^8.0.0",
+    "gulp": "^4.0.2",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "imagemin-mozjpeg": "^9.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

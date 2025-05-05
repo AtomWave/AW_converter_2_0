@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер изображений для сайта</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+  </head>
+
+  <body>
+    <section class="converter">
+      <h1>Конвертер картинок для сайта</h1>
+
+      <div class="custom-file-input">
+        <input id="fileInput" type="file" accept="image/*" multiple webkitdirectory directory>
+        <label class="file-button" for="fileInput">
+          <span class="button-icon">📷</span>
+          <span class="button-text">Выбрать изображения</span>
+        </label>
+      </div>
+
+      <div class="compression-settings">
+        <label for="compressionInput">Процент сжатия (1-100):</label>
+        <input id="compressionInput" type="number" value="70" min="1" max="100">
+      </div>
+
+      <button id="downloadButton">Делай магию</button>
+
+      <div id="output">
+        <img src="./img/bird-star-marabu.png" alt="">
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+
+</html>
